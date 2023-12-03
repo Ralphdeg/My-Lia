@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lia the Great</title>
+  <style>
+
+    p {
+        font-size: 50px;
+    }
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      flex-direction: column;
+    }
+
+    #loveButton {
+      font-size: 500px; /* Adjust the font size to make the heart bigger */
+      cursor: pointer;
+      background: none;
+      border: none;
+      outline: none;
+      color: red;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<p>Click the heart to reveal a message:</p>
+<button id="loveButton" onclick="showLoveMessage()">❤️</button>
+
+<script>
+  function showLoveMessage() {
+    alert("Hi Lia, take care always. I am so happy that I met you.");
+  }
+</script>
+
+</body>
+</html>
